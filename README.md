@@ -1,4 +1,4 @@
-# Metacrafters: Javascript Assessment
+# Metacrafters: Solidity Assessment
 > Project: Create a Token 
 
  ## ASSESSMENT REQUIREMENTS:
