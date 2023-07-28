@@ -47,6 +47,39 @@ contract MyToken {
 
 You can find the solution [here](https://youtu.be/yfuMcRf1Ml4).
 
+
+
+<details>
+<summary>My Solution</summary>
+
+```js
+contract Token {
+    string public tokenName = "jfmartinz";           
+    string public tokenAbbreviation = "jmz";  
+    uint public totalSupply = 0;       
+
+    mapping(address => uint) public balances;  
+
+  
+
+    function mint(address account, uint value) public {
+        totalSupply += value;          
+        balances[account] += value;    
+    }
+    
+    function burn(address account, uint value) public {
+      if(balances[account] >= value){
+        totalSupply -= value;          
+        balances[account] -= value;    
+      }  
+
+    }
+
+}
+```
+
+</details>
+
 I recommend you to check this [repo](https://github.com/jfmartinz/web3Notes) before attempting this assessment.
 
 **Author:**
