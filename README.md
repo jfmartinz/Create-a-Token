@@ -80,8 +80,7 @@ contract Token {
 
 </details>
 
-I recommend you to learn the basics of Solidity in this [repo](https://github.com/jfmartinz/web3Notes), before attempting this assessment.
-Or take a course on [MetaCrafters](https://www.metacrafters.io/)
+I recommend you to learn the basics of Solidity in [MetaCrafters](https://www.metacrafters.io/) or check out my notes on this [repo](https://github.com/jfmartinz/web3Notes), before attempting this assessment.
 
 ---
 
